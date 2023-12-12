@@ -15,8 +15,8 @@ rustls-pemfile = "2"
 pki-types = { package = "rustls-pki-types", version = "1" }
 
 [dev-dependencies]
-ring = "0.16.5"
-rustls = "0.22"
+ring = "0.17"
+rustls = { path = "../rustls" }
 rustls-webpki = "0.102"
 serial_test = "2"
 untrusted = "0.7" # stick to the version ring depends on for now
